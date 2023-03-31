@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+  background-color: orangered;
+}
+
+
+h1 {
+  text-align: center;
+  
+}
+
+
+#grid {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.cell {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: blue;
+}
+
+button, select {
+  display: block;
+  margin: 10px auto;
+  font-size: 20px;
+}
